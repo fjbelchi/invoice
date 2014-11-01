@@ -98,3 +98,4 @@ DEPENDENCIES
   pry
   rake
   rspec
+  simplecov

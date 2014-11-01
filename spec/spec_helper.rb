@@ -1,3 +1,7 @@
-require './lib/client'
+require 'simplecov'
 require 'coveralls'
+
+SimpleCov.start
 Coveralls.wear!
+
+require './lib/client'
