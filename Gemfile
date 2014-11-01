@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'coveralls', group: :test, require: false
+gem 'simplecov', require: false
+gem 'coveralls', require: false
 
 group :test do
   gem 'rake'

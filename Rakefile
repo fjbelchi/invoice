@@ -18,4 +18,11 @@ RuboCop::RakeTask.new do |task|
   task.requires << 'rubocop-rspec'
 end
 
+desc 'Run RSpec with code coverage'
+task :coverage do
+  Rake::Task['spec'].execute
+  `rake spec COVERAGE=true`
+  `open coverage/index.html`
+end
+
 task default: :spec
