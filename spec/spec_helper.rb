@@ -1,4 +1,3 @@
-$: << File.join(File.dirname(__FILE__), '..', 'lib')
-require './lib/Company'
+require './lib/client'
 require 'coveralls'
 Coveralls.wear!
