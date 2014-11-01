@@ -1,7 +1,3 @@
 language: ruby
 rvm:
   - 2.1.0
-
-addons:
-  code_climate:
-      repo_token: 89fc02c80988ec0dc865c361a36f37941abb9afbede691855ba81a51313ef70e
