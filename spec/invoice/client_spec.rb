@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Client do
+describe Invoice::Client do
 
   describe '#new' do
     it 'takes min requirements: name, email, taxId and return a client' do
