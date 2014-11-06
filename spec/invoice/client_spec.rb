@@ -69,6 +69,18 @@ describe Invoice::Client do
       expect(client.tax_id).to eq(tax_id)
     end
 
+    it 'has a zip_code' do
+      zip_code = '30310'
+      client.zip_code = zip_code
+      expect(client.zip_code).to eq(zip_code)
+    end
+
+    it 'has a invoice_prefix' do
+      invoice_prefix = 'WA'
+      client.invoice_prefix = invoice_prefix
+      expect(client.invoice_prefix).to eq(invoice_prefix)
+    end
+
   end
 
 end
