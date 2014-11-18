@@ -8,7 +8,7 @@ module Invoice
     def initialize(name, email, tax_id)
       @name = name
       @email = email
-      @tax_id = tax_id
+      @tax_id = tax_id      
     end
   end
 end
